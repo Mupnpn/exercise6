@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Circle and Rectangle</title>
+
+    <!-- CSS styling for the rectangle and circle -->
+    <style>
+        /* Blue rectangle */
+        .rectangle {
+            width: 200px;            /* Width */
+            height: 150px;           /* Height */
+            background-color: blue;  /* Rectangle color */
+            position: absolute;      /* Absolute position so elements can overlap */
+            top: 50px;               /* Vertical position */
+            left: 50px;              /* Horizontal position */
+        }
+
+        /* Yellow circle with red border */
+        .circle {
+            width: 150px;
+            height: 150px;
+            background-color: yellow; /* Circle fill color */
+            border: 5px solid red;    /* Red border */
+            border-radius: 50%;       /* Makes it a circle */
+            position: absolute;
+            top: 70px;                /* Overlapping position (slightly lower) */
+            left: 130px;              /* Overlapping position (to the right) */
+        }
+    </style>
+</head>
+<body>
+    <!-- Rectangle -->
+    <div class="rectangle"></div>
+
+    <!-- Circle -->
+    <div class="circle"></div>
+</body>
+</html>
